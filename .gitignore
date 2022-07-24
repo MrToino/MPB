@@ -14,7 +14,6 @@ env/
 
 # Distribution / packaging
 .Python
-venv/
 build/
 develop-eggs/
 dist/
@@ -61,3 +60,18 @@ db.sqlite3-journal
 # IDEs
 .idea/
 .vscode/
+*.sublime*
+
+### Extra react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+psd
+thumb
+sketch
